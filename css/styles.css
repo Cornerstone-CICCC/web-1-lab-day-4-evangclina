@@ -51,5 +51,24 @@ body {
   flex: 1;
   padding: 0.25rem;
 }
+.container #employees {
+  flex-basis: 50%;
+}
+.container #employees table {
+  width: 100%;
+}
+.container #employees table thead {
+  background-color: rgb(206, 204, 204);
+}
+.container #employees table tbody {
+  background-color: rgb(229, 228, 228);
+}
+.container #employees table tbody .img {
+  width: 50px;
+}
+.container #employees table tbody td {
+  padding-left: 5px;
+  padding-top: 5px;
+}
 
 /*# sourceMappingURL=styles.css.map */
